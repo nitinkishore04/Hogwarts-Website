@@ -1,0 +1,54 @@
+body{
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+    /*font-family: 'Lato', sans-serif;*/
+}
+.container{
+    margin-top: 70px;
+}
+
+
+.container .jumbotron{
+    background: url(https://cdn.mos.cms.futurecdn.net/i9dzfSkSqPCfEiDCfm8hC7-1200-80.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 65%;
+    color: #f4f4f4;
+    min-height: 100%;              
+}
+.container.feature img{
+    align-content: center;
+}
+nav ul li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.card-deck .card {
+  min-width: 220px;
+}
+.active{
+    font-weight: 500;
+}
+@media(min-width:768px){
+    headrer-content h2 .display-2{
+        font-size: 1.5rem !important;
+    }            
+}
+@media(max-width:768px){
+    .hide-on-sm{
+        display: none;
+    }
+}
+ul.social-icons li a{
+    color: white;
+}
+ul.social-icons li a:hover{
+    color: rgb(142, 142, 236);
+}
+/*.features .col-sm-12,
+.features .col-md-4{
+    background-color:white;
+}
+*/
